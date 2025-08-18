@@ -1,4 +1,3 @@
-
 public class Activity1 {
     public static void main(String[] args) {
         
@@ -28,3 +27,4 @@ public class Activity1 {
             System.out.println("INVALID!");
         }
     }
+}
