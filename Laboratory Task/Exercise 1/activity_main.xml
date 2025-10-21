@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical">
+    android:gravity="center">
+
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="serif"
-        android:gravity="center"
-        android:text="Welcome to Android UI!"
-        android:textColor="#9C27B0"
+        android:fontFamily="serif-monospace"
+        android:text="@string/welcome_to_android_ui"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
         android:textSize="24sp"
-        android:textStyle="bold|italic" />
+        android:textStyle="bold" />
 </LinearLayout>
